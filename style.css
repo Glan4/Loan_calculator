@@ -1,0 +1,116 @@
+body {
+  margin: 0px;
+  background-color: #f3f4f8;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid 1px;
+    background-color: #B2C8DF;
+    padding: 10px 8px 0px 8px;
+}
+
+p {
+  font-size: 18px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.body-content {
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+h1 {
+  margin: 0px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+input {
+  height: 40px;
+}
+
+
+.hlogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30%;
+
+}
+
+.submit-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  flex-direction: column;
+    align-items: center;
+}
+
+.input-numbers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.btn-submit {
+      width: 120px;
+      height: 45px;
+      background-color: #B2C8DF;
+      border: 1px solid;
+      font-weight: 600;
+      border-radius: 10px;
+      cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #94c2f2;
+}
+
+.btn-subm {
+  display: flex;
+flex-direction: row;
+align-items: flex-end;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.inputs {
+  width: 250px;
+  font-size: 20px;
+}
+
+.outputs {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.output {
+
+  padding: 15px;
+  border: solid 1px gray;
+  background-color: #B2C8DF;
+}

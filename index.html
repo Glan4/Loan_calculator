@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Loan calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="hlogo">
+      <h1>Loan calculator</h1>
+    </div>
+
+  </header>
+  <div class="body-content">
+    <div class="text">
+      <p>This loan calculator will help you determine the monthly payments on a loan and the amount of interest you will pay.
+         Simply enter the loan amount, term and interest rate in the fields below and click calculate. </p>
+    </div>
+    <div class="submit-text" id="subm">
+      <div class="input-numbers">
+        <label for="loanAmount">Loan amount:</label>
+        <input type="number" class="inputs" id="loanAmount" name="loanAmount" value="0" min="0">
+      </div>
+      <div class="input-numbers">
+        <label for="months">Loan term in months:</label>
+        <input type="number" class="inputs" id="months" name="months" value="0" min="0">
+      </div>
+
+      <div class="input-numbers">
+        <label for="months">Annual Interest Rate (%):</label>
+        <input type="number" class="inputs" id="rate" name="rate" value="0" min="0">
+      </div>
+      <div class="btn-subm">
+        <button class="btn-submit" type="button" onclick="calculate_payment()" >CALCULATE</button><br>
+      </div>
+
+
+
+    </div>
+    <div class="result">
+
+    </div>
+  </div>
+
+</body>
+
+</html>
